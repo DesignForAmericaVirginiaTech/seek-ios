@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C0B4F1B1BE17B13006E2ED2 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0B4F1A1BE17B13006E2ED2 /* ProfileViewController.m */; };
 		7C99188D1A819FBA0086D3E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C99188C1A819FBA0086D3E8 /* main.m */; };
 		7C9918901A819FBA0086D3E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C99188F1A819FBA0086D3E8 /* AppDelegate.m */; };
 		7C9918931A819FBA0086D3E8 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9918921A819FBA0086D3E8 /* FirstViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C0B4F191BE17B13006E2ED2 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		7C0B4F1A1BE17B13006E2ED2 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		7C9918871A819FB90086D3E8 /* Seek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C99188B1A819FB90086D3E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C99188C1A819FBA0086D3E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -91,6 +94,8 @@
 				7C9918941A819FBA0086D3E8 /* SecondViewController.h */,
 				7C9918951A819FBA0086D3E8 /* SecondViewController.m */,
 				7C9918971A819FBA0086D3E8 /* Main.storyboard */,
+				7C0B4F191BE17B13006E2ED2 /* ProfileViewController.h */,
+				7C0B4F1A1BE17B13006E2ED2 /* ProfileViewController.m */,
 				7C99189A1A819FBA0086D3E8 /* Images.xcassets */,
 				7C99189C1A819FBA0086D3E8 /* LaunchScreen.xib */,
 				7C99188A1A819FB90086D3E8 /* Supporting Files */,
@@ -228,6 +233,7 @@
 				7C9918901A819FBA0086D3E8 /* AppDelegate.m in Sources */,
 				7C9918931A819FBA0086D3E8 /* FirstViewController.m in Sources */,
 				7C99188D1A819FBA0086D3E8 /* main.m in Sources */,
+				7C0B4F1B1BE17B13006E2ED2 /* ProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +426,7 @@
 				7C9918AF1A819FBA0086D3E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C9918B01A819FBA0086D3E8 /* Build configuration list for PBXNativeTarget "SeekTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +435,7 @@
 				7C9918B21A819FBA0086D3E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
